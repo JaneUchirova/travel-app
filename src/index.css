@@ -1,0 +1,65 @@
+@import "./assets/css/style.css";
+
+#root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.trip-card > img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+@media (max-width: 37.5rem) {
+  .header {
+    padding-inline: 0.75rem 0;
+  }
+
+  .header__logo {
+    font-size: 1.5rem;
+  }
+
+  .nav-header__inner {
+    min-width: 3.5rem;
+  }
+
+  .trips-filter__form {
+    flex-direction: column;
+  }
+
+  .trips-filter__search,
+  .trips-filter__form > .select,
+  .select select {
+    width: 100%;
+    max-width: none;
+  }
+
+  .sign-up-page,
+  .sign-in-page {
+    padding: 1.25rem 1rem 3.125rem;
+  }
+
+  .trip-page,
+  .bookings-page,
+  .trips {
+    padding-inline: 0.9375rem;
+  }
+
+  .trip__img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+  }
+
+  .book-trip-popup {
+    margin: 1rem;
+    padding-inline: 1.25rem;
+  }
+
+  .footer__text {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
