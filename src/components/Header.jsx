@@ -1,6 +1,7 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import briefcaseIcon from "../assets/images/briefcase.svg";
 import userIcon from "../assets/images/user.svg";
+import "./Header.css";
 
 function Header() {
   const { pathname } = useLocation();

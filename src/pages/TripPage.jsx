@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Navigate, useParams } from "react-router-dom";
 import BookTripModal from "../components/BookTripModal.jsx";
+import "./TripPage.css";
 
 function TripPage({ trips, onBookTrip }) {
   const { tripId } = useParams();

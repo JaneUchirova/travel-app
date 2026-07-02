@@ -1,6 +1,7 @@
 import { useState } from "react";
 import TripCard from "../components/TripCard.jsx";
 import TripsFilter from "../components/TripsFilter.jsx";
+import "./HomePage.css";
 
 function HomePage({ trips }) {
   const [search, setSearch] = useState("");

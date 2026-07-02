@@ -1,4 +1,5 @@
-import BookingCard from "../components/BookingCard";
+import BookingCard from "../components/BookingCard.jsx";
+import "./BookingsPage.css";
 
 function BookingPage({ bookings, onCancel }) {
   const sortedBookings = [...bookings].sort(
